@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import styles from '../styles'
 import { newFeatures } from '../constants'
 import { NewFeatures, TitleText, TypingText } from '../components'
-import { planetVariants, staggerContainer, fadeIn } from '../utils/motion'
+import { textVariant, staggerContainer, fadeIn } from '../utils/motion'
 
 const WhatsNew = () => (
 	<section className={`${styles.paddings} relative z-10`}>
@@ -28,7 +28,7 @@ const WhatsNew = () => (
 			</motion.div>
 
 			<motion.div
-				variants={planetVariants('right')}
+				variants={textVariant(0.5)}
 				className={`flex-1 ${styles.flexCenter}`}>
 				<img
 					src='/whats-new.png'
