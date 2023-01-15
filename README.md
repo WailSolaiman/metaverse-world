@@ -11,7 +11,7 @@ Metaverse World webapp with modern and beautiful interface developed with React,
 
 ## Website
 
-[power-zone-gym-studio.netlify.app](power-zone-gym-studio.netlify.app)
+[metaverse-world.netlify.app/](metaverse-world.netlify.app/)
 
 ## Developer
 
