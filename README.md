@@ -11,7 +11,7 @@ Metaverse World webapp with modern and beautiful interface developed with React,
 
 ## Website
 
-[metaverse-world.netlify.app/](metaverse-world.netlify.app/)
+[https://metaverse.wailsolaiman.com](https://metaverse.wailsolaiman.com)
 
 ## Developer
 
