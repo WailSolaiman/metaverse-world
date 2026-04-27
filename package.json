@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "serve:static": "npx --yes serve@14 out -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
