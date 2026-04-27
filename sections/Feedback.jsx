@@ -6,7 +6,9 @@ import styles from '../styles'
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion'
 
 const Feedback = () => (
-	<section className={`${styles.paddings}`}>
+	<section
+		id='feedback'
+		className={`${styles.paddings}`}>
 		<motion.div
 			variants={staggerContainer}
 			initial='hidden'

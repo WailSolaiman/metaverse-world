@@ -36,15 +36,16 @@ export const slideIn = (direction, type, delay, duration) => ({
   },
 });
 
-export const staggerContainer = (staggerChildren, delayChildren) => ({
+// Plain object (not a factory) — framer `variants` must be a variant map, not a function
+export const staggerContainer = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren,
-      delayChildren,
+      staggerChildren: 0.12,
+      delayChildren: 0.1,
     },
   },
-});
+};
 
 export const textVariant = (delay) => ({
   hidden: {
@@ -141,8 +142,8 @@ export const zoomIn = (delay, duration) => ({
 
 export const footerVariants = {
   hidden: {
-    opacity: 0,
-    y: 50,
+    opacity: 1,
+    y: 36,
     transition: {
       type: 'spring',
       stiffness: 300,
@@ -155,7 +156,7 @@ export const footerVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 0.5,
+      delay: 0.35,
     },
   },
 };

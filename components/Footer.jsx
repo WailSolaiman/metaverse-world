@@ -11,7 +11,8 @@ const Footer = () => (
 		variants={footerVariants}
 		initial='hidden'
 		whileInView='show'
-		className={`${styles.xPaddings} py-8 relative`}>
+		viewport={{ once: true, amount: 0.2 }}
+		className={`${styles.xPaddings} py-8 relative bg-primary-black`}>
 		<div className='footer-gradient' />
 		<div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
 			<div className='flex items-center justify-between flex-wrap gap-5'>
@@ -37,10 +38,10 @@ const Footer = () => (
 
 				<div className='flex items-center justify-between flex-wrap gap-4'>
 					<h4 className='font-extrabold text-[24px] text-white'>
-						METAVERUS
+						METAVERSE WORLD
 					</h4>
 					<p className='font-normal text-[14px] text-white opacity-50'>
-						Copyright © 2021 - 2022 Metaversus. All rights reserved.
+						Copyright © 2021 - 2022 Metaverse World. All rights reserved.
 					</p>
 
 					<div className='flex gap-4'>

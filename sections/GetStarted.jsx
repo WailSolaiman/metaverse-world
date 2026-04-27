@@ -8,7 +8,9 @@ import { StartSteps, TitleText, TypingText } from '../components'
 import { staggerContainer, textVariant, fadeIn } from '../utils/motion'
 
 const GetStarted = () => (
-	<section className={`${styles.paddings} relative z-10`}>
+	<section
+		id='get-started'
+		className={`${styles.paddings} relative z-10`}>
 		<motion.div
 			variants={staggerContainer}
 			initial='hidden'

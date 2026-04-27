@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --site-header-offset: 5.75rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --site-header-offset: 7.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --site-header-offset: 8.5rem;
+  }
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  scroll-padding-top: var(--site-header-offset);
+  background-color: #1a232e;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
+  background-color: #1a232e;
+}
+
 * {
   margin: 0;
   padding: 0;
