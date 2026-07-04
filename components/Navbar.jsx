@@ -146,7 +146,7 @@ const Navbar = () => {
 				<div
 					className={`${styles.innerWidth} mx-auto flex justify-between gap-2 sm:gap-6 md:gap-8 items-center relative z-10 min-w-0 w-full`}>
 					<img
-						src='/search.svg'
+						src='./search.svg'
 						alt='search'
 						className='h-5 w-5 object-contain shrink-0 sm:h-6 sm:w-6'
 					/>
@@ -167,7 +167,7 @@ const Navbar = () => {
 							<CloseIcon className='h-5 w-5 sm:h-6 sm:w-6' />
 						) : (
 							<img
-								src='/menu.svg'
+								src='./menu.svg'
 								alt=''
 								className='h-5 w-5 object-contain pointer-events-none sm:h-6 sm:w-6'
 							/>

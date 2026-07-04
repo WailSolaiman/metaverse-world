@@ -2,7 +2,7 @@ import '../styles/globals.css';
 
 export const metadata = {
 	title: 'Metaverse World',
-	icons: { icon: '/favicon.ico' },
+	icons: { icon: './favicon.ico' },
 }
 
 export const viewport = {
