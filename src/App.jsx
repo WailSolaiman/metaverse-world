@@ -10,7 +10,7 @@ import {
 	World,
 } from '../sections'
 
-const Page = () => (
+const App = () => (
 	<div className='bg-primary-black w-full min-w-0 max-w-full [isolation:isolate]'>
 		<Navbar />
 		<main className='w-full min-w-0 max-w-full pt-[var(--site-header-offset)]'>
@@ -36,4 +36,4 @@ const Page = () => (
 	</div>
 )
 
-export default Page
+export default App
