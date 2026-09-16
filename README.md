@@ -14,11 +14,11 @@ Metaverse World webapp with modern and beautiful interface developed with React,
 ```
 npm install
 npm run dev        # Vite dev server
-npm run build      # static build → out/
-npm run preview    # preview the built out/ folder
+npm run build      # static build → dist/
+npm run preview    # preview the built dist/ folder
 ```
 
-`vite.config.mjs` sets `base: './'`, so the contents of `out/` can be uploaded to any
+`vite.config.mjs` sets `base: './'`, so the contents of `dist/` can be uploaded to any
 subfolder without a hardcoded path prefix.
 
 ## Website

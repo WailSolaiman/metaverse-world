@@ -7,8 +7,8 @@ export default defineConfig({
 	// (deployed at wailsolaiman.com/templates/metaverse-world) without a hardcoded prefix.
 	base: './',
 	build: {
-		// Kept as `out` rather than Vite's default `dist` to match the existing deploy flow.
-		outDir: 'out',
+		// Vite's default output directory.
+		outDir: 'dist',
 		emptyOutDir: true,
 	},
 })

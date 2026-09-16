@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve:static": "npx --yes serve@14 out -p 3000",
+    "serve:static": "npx --yes serve@14 dist -p 3000",
     "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
