@@ -33,14 +33,14 @@ const World = () => (
 				variants={fadeIn('up', 'tween', 0.3, 1)}
 				className='relative mt-[68px] flex w-full h-[550px]'>
 				<img
-					src='./map.png'
+					src='./images/map.png'
 					alt='map'
 					className='w-full h-full object-cover'
 				/>
 
 				<div className='absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]'>
 					<img
-						src='./people-01.png'
+						src='./images/people-01.png'
 						alt='people'
 						className='w-full h-full'
 					/>
@@ -48,7 +48,7 @@ const World = () => (
 
 				<div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]'>
 					<img
-						src='./people-02.png'
+						src='./images/people-02.png'
 						alt='people'
 						className='w-full h-full'
 					/>
@@ -56,7 +56,7 @@ const World = () => (
 
 				<div className='absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]'>
 					<img
-						src='./people-03.png'
+						src='./images/people-03.png'
 						alt='people'
 						className='w-full h-full'
 					/>
